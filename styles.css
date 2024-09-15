@@ -1,0 +1,28 @@
+.image-preview img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 30px solid skyblue;
+    border-right: 30px solid lightpink;
+    border-bottom: 30px solid lightgreen;
+    border-left: 30px solid #ffefd5;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    border-spacing: 0;
+    border-color: gray;
+}
+
+table th, td {
+    padding: 8px;
+    text-align: left;
+    border-width: 0 0 1px;
+    border-color: #dbdbdb;
+    border-style: solid;
+}
+
+table th {
+    border-width: 0 0 2px;
+}
